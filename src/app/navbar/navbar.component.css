@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 10px 0 40px 0;
+}
+.left img{
+    width: 200px;
+}
+.right,.drop{
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+.about{
+    padding: 0 10px;
+}
+.right:hover .dropdown{
+    display: block;
+}
+.dropdowns{
+    position: absolute;
+    display: none;
+    left: -130px;
+    top: -3px;
+}
+.drop:hover .dropdowns{
+    display: block;
+}

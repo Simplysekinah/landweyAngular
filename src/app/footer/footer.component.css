@@ -1,0 +1,29 @@
+footer{
+    background-color: black;
+    color: white;
+    padding: 70px;
+    height: 400px;
+}
+hr{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid white;
+}
+.footer-one,ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+ul{
+    color: #75756c;
+    font-size: 17px;
+}
+.li{
+    width: 250px;
+}
